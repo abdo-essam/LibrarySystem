@@ -11,10 +11,10 @@ void main() {
   library.users.add(User('1', 'Abdo'));
   library.users.add(User('2', 'Essam'));
 
-  library.borrowBook('1', '1'); // Alice borrows Dart Programming
-  library.borrowBook('2', '2'); // Bob borrows Flutter Development
-  library.returnBook('1');      // Alice returns Dart Programming
-  library.borrowBook('1', '2'); // Bob borrows Dart Programming
+  library.borrowBook('1', '1'); // Abdo borrows Dart Programming
+  library.borrowBook('2', '2'); // Essam borrows Flutter Development
+  library.returnBook('1');      // Abdo returns Dart Programming
+  library.borrowBook('1', '2'); // Essam borrows Dart Programming
 
   library.displayInfo();
 }
